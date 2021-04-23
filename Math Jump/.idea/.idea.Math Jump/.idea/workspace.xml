@@ -12,9 +12,15 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Bounce.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Destroy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/ButtonManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Controller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/ButtonManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Destroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scroll.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Calculation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bounce.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Destroy.cs" />
       </list>
     </option>
   </component>
@@ -66,7 +72,10 @@
       <workItem from="1618263013504" duration="51000" />
       <workItem from="1618263135959" duration="2890000" />
       <workItem from="1618313419700" duration="1807000" />
-      <workItem from="1618321877078" duration="1304000" />
+      <workItem from="1618321877078" duration="1904000" />
+      <workItem from="1618921099198" duration="15000" />
+      <workItem from="1618921153785" duration="7415000" />
+      <workItem from="1619175631508" duration="5958000" />
     </task>
     <servers />
   </component>
@@ -77,5 +86,11 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="764" y="217" key="RiderGenerateDialog" timestamp="1618927557190">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="764" y="217" key="RiderGenerateDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1618927557190" />
   </component>
 </project>
