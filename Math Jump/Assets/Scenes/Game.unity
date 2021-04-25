@@ -127,7 +127,7 @@ PrefabInstance:
     - target: {fileID: 2116552455909723316, guid: 89a88a9e20f4e2a4095f75b5f773e568,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 22.5
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2116552455909723316, guid: 89a88a9e20f4e2a4095f75b5f773e568,
         type: 3}
@@ -226,7 +226,7 @@ PrefabInstance:
     - target: {fileID: 2116552455909723316, guid: 89a88a9e20f4e2a4095f75b5f773e568,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -22.5
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 2116552455909723316, guid: 89a88a9e20f4e2a4095f75b5f773e568,
         type: 3}
@@ -424,7 +424,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 588b67a48e1638042899de67428a6755, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isStarted: 0
   scoreText: {fileID: 1236150920}
   startText: {fileID: 1747881029}
 --- !u!50 &901197121
@@ -753,7 +752,7 @@ GameObject:
   - component: {fileID: 1216197859}
   - component: {fileID: 1216197862}
   m_Layer: 0
-  m_Name: Back
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -843,8 +842,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d89420edcb47f747a2d1da5f8e2b794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 0.25
-  cntrlr: {fileID: 901197119}
 --- !u!1 &1236150918
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,7 +854,7 @@ GameObject:
   - component: {fileID: 1236150921}
   - component: {fileID: 1236150920}
   m_Layer: 5
-  m_Name: scoreText
+  m_Name: ScoreT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -935,7 +932,7 @@ GameObject:
   - component: {fileID: 1448159745}
   - component: {fileID: 1448159744}
   m_Layer: 5
-  m_Name: Calculation
+  m_Name: CalculationT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -972,9 +969,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8696ccd630c88b044b2fdfe4c62bf0ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  calculationText: {fileID: 1448159745}
-  operatorC: 43
-  cntrlr: {fileID: 901197119}
+  calculationT: {fileID: 1448159745}
+  result1: {fileID: 0}
+  result2: {fileID: 0}
+  result3: {fileID: 0}
+  result4: {fileID: 0}
 --- !u!114 &1448159745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1085,11 +1084,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85d692cf0b433b74f9a8873dd6014e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 901197119}
   platformPrefab: {fileID: 8924136643256184570, guid: 89a88a9e20f4e2a4095f75b5f773e568,
     type: 3}
-  spawnTime: 0
-  spawnDelay: 0
 --- !u!1001 &1701841494
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1201,7 +1197,7 @@ GameObject:
   - component: {fileID: 1747881030}
   - component: {fileID: 1747881029}
   m_Layer: 5
-  m_Name: startText
+  m_Name: StartT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1432,7 +1428,7 @@ PrefabInstance:
     - target: {fileID: 8924136643256184570, guid: 89a88a9e20f4e2a4095f75b5f773e568,
         type: 3}
       propertyPath: m_Name
-      value: Platform
+      value: Platform (0)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89a88a9e20f4e2a4095f75b5f773e568, type: 3}

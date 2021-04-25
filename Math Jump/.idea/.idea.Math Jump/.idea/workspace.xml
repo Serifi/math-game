@@ -15,12 +15,19 @@
         <option value="$PROJECT_DIR$/Assets/Script/Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ButtonManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Destroy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scroll.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Calculation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Audio2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Buttons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DropDown.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Bounce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Destroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Parallax.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Calculation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bounce.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Transmitter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Volume.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Audio.cs" />
       </list>
     </option>
   </component>
@@ -76,6 +83,10 @@
       <workItem from="1618921099198" duration="15000" />
       <workItem from="1618921153785" duration="7415000" />
       <workItem from="1619175631508" duration="5958000" />
+      <workItem from="1619197414347" duration="476000" />
+      <workItem from="1619198070752" duration="2764000" />
+      <workItem from="1619292693396" duration="4037000" />
+      <workItem from="1619346354350" duration="4187000" />
     </task>
     <servers />
   </component>
@@ -92,5 +103,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="764" y="217" key="RiderGenerateDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1618927557190" />
+    <state x="616" y="250" key="run.anything.popup" timestamp="1619294636334">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1619294636334" />
   </component>
 </project>

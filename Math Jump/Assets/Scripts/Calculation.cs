@@ -1,26 +1,26 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class Calculation : MonoBehaviour
 {
-    public Text calculationText;
-    public char operatorC = '+';
-    public GameObject cntrlr;
+    public Text calculationT;
+    public Text result1;
+    public Text result2;
+    public Text result3;
+    public Text result4;
+    private int no1;
+    private int no2;
+    private char op;
 
-    void Start()
-    {
-        
-    }
-    
     void Update()
     {
-        Controller controller = cntrlr.GetComponent<Controller>();
-        if (controller.isStarted)
+        if (Transmitter.isStartedT)
         {
-            calculationText.text = Random.Range(1, 100).ToString() + " " + operatorC + " " + Random.Range(1, 100).ToString();
+            no1 = Random.Range(1, 100);
+            no2 = Random.Range(1, 100);
+            op = Transmitter.operatorT;
+            calculationT.text = no1.ToString() + " " + op + " " + no2.ToString();
         }
     }
 } 

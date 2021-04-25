@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 149139941}
   - component: {fileID: 149139940}
   m_Layer: 5
-  m_Name: playButton
+  m_Name: StartB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -191,7 +191,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2133212704}
-        m_MethodName: startGame
+        m_MethodName: start
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -249,7 +249,7 @@ GameObject:
   - component: {fileID: 266069335}
   - component: {fileID: 266069334}
   m_Layer: 5
-  m_Name: highscoreButton
+  m_Name: SettingsB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -315,7 +315,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2133212704}
-        m_MethodName: showHighscore
+        m_MethodName: settin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -372,7 +372,7 @@ GameObject:
   - component: {fileID: 304053968}
   - component: {fileID: 304053967}
   m_Layer: 5
-  m_Name: Highscore
+  m_Name: SettingsT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -394,7 +394,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -156, y: -123.00001}
+  m_AnchoredPosition: {x: -146, y: -123}
   m_SizeDelta: {x: 207.65546, y: 58.444565}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &304053967
@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 544222303}
   - component: {fileID: 544222302}
   m_Layer: 0
-  m_Name: MenuBird
+  m_Name: BirdT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -528,7 +528,7 @@ GameObject:
   - component: {fileID: 881975094}
   - component: {fileID: 881975093}
   m_Layer: 5
-  m_Name: Quit
+  m_Name: QuitT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -604,7 +604,7 @@ GameObject:
   - component: {fileID: 1116315566}
   - component: {fileID: 1116315565}
   m_Layer: 0
-  m_Name: MenuBack
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -938,7 +938,7 @@ GameObject:
   - component: {fileID: 1465118768}
   - component: {fileID: 1465118767}
   m_Layer: 5
-  m_Name: Start
+  m_Name: StartT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1016,7 +1016,7 @@ GameObject:
   - component: {fileID: 1789094903}
   - component: {fileID: 1789094902}
   m_Layer: 5
-  m_Name: quitButton
+  m_Name: QuitB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1082,7 +1082,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2133212704}
-        m_MethodName: quitGame
+        m_MethodName: quit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1139,7 +1139,7 @@ GameObject:
   - component: {fileID: 2082100857}
   - component: {fileID: 2082100856}
   m_Layer: 5
-  m_Name: title
+  m_Name: TitleT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1215,7 +1215,7 @@ GameObject:
   - component: {fileID: 2133212705}
   - component: {fileID: 2133212704}
   m_Layer: 0
-  m_Name: ButtonManager
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
