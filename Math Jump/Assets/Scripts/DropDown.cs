@@ -1,29 +1,25 @@
-﻿using UnityEngine;
+﻿using System;
+using TMPro;
+using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.UI;
 
+[RequireComponent(typeof(Dropdown))]
 public class DropDown : MonoBehaviour
 {
-    private char operatorC = '+';
-
-    public void HandleInputData(int value)
+    private Dropdown dropDown;
+    
+    private void Awake()
     {
-        switch (value)
+        dropDown = GetComponent<Dropdown>();
+        dropDown.onValueChanged.AddListener(new UnityAction<int>(index =>
         {
-            case 0:
-                operatorC = '+';
-                break;
-            case 1:
-                operatorC = '-';
-                break;
-            case 2:
-                operatorC = '*';
-                break;
-            case 3:
-                operatorC = '/';
-                break;
-            default:
-                operatorC = '+';
-                break;
-        }
-        Transmitter.operatorT = operatorC;
+            PlayerPrefs.SetInt("valueDP", dropDown.value);
+        }));
+    }
+
+    private void Start()
+    {
+        dropDown.value = PlayerPrefs.GetInt("valueDP", 0);
     }
 }

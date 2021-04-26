@@ -19,7 +19,7 @@ public class Buttons : MonoBehaviour
         SceneManager.LoadScene("Settings");
     }
 
-    public void back()
+    public void menu()
     {
         SceneManager.LoadScene("Menu");
     }

@@ -18,16 +18,22 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Scroll.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ButtonManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Audio2.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Buttons.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DropDown.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Controller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Destroy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Parallax.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Calculation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bounce.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Transmitter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Volume.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Audio.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Setting.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Destroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Buttons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Calculation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DropDown.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DropDownHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Score.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DropDownHanlder2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DropDown2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Transmitter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bottom.cs" />
       </list>
     </option>
   </component>
@@ -49,6 +55,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Test\Math Jump.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\Math Jump\Test" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -87,6 +101,9 @@
       <workItem from="1619198070752" duration="2764000" />
       <workItem from="1619292693396" duration="4037000" />
       <workItem from="1619346354350" duration="4187000" />
+      <workItem from="1619358906014" duration="7895000" />
+      <workItem from="1619378661516" duration="6887000" />
+      <workItem from="1619459174719" duration="635000" />
     </task>
     <servers />
   </component>

@@ -10,7 +10,6 @@ public class Controller : MonoBehaviour
     public Text scoreText;
     public Text startText;
     private float topScore = 0.0f;
-    private int highscore = 0;
     private bool isStarted = false;
     
     void Start()
@@ -22,7 +21,7 @@ public class Controller : MonoBehaviour
 
     private void Update()
     {
-        //Sapce zum Starten
+        //Space zum Starten
         if (Input.GetKeyDown(KeyCode.Space) && isStarted == false)
         {
             isStarted = true;
@@ -39,14 +38,9 @@ public class Controller : MonoBehaviour
             //Score
             if (rb2d.velocity.y > 0 && transform.position.y > topScore) topScore = transform.position.y;
             scoreText.text = Math.Round(topScore).ToString();
-        
-            if (topScore > highscore)
-            {
-                highscore = (int) topScore;
-                PlayerPrefs.SetInt("highscore", highscore);
-                PlayerPrefs.Save();
-            }
-        
+
+            //Highscore
+            if (topScore > PlayerPrefs.GetInt("highscore")) PlayerPrefs.SetInt("highscore", (int) topScore);
         }
         Transmitter.isStartedT = isStarted;
     }
