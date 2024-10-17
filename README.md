@@ -1,9 +1,1 @@
-LETS GOOO
-
-06.04.21
-ARGJENT:
-ASAMAT:
-
-13.04.21
-ARGJENT:
-ASAMAT:
+MathJump is an educational project developed as part of a school initiative using Unity. Drawing inspiration from the classic Doodle Jump, the game incorporates mathematical elements, challenging players to solve equations in order to progress. The objective is to leap onto platforms that correspond to the correct solutions, seamlessly blending entertainment with learning to create an engaging and intellectually stimulating experience.
